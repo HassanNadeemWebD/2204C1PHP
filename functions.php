@@ -63,7 +63,7 @@ function calculate($num1, $num2, $op)
     <form action="functions.php" method="get">
         <input type="text" name="num1" placeholder="Number 1"> <br><br>
         <input type="text" name="num2" placeholder="Number 2"><br><br>
-        <input type="text" name="operator" placeholder="operator">
+        <input type="text" name="operator" placeholder="operator" >
         <br>
         <button name="submit">calculate</button>
 
