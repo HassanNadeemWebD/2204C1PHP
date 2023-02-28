@@ -79,7 +79,7 @@
         <div class="contact-image">
             <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact" />
         </div>
-        <form action="insert.php" method="post">
+        <form action="insert.php" method="post" enctype=" multipart/form-data" >
             <h3>Drop Us a Message</h3>
             <div class="row">
                 <div class="col-md-6">
@@ -104,6 +104,10 @@
                     <div class="form-group">
                         <input type="text" name="phone" class="form-control" placeholder="Your Phone Number *" />
                     </div>
+                
+                    <input type="file" name="pic">
+
+            
                     <div class="form-group">
                         <input type="submit" name="submit" class="btnContact" value="Send Message" />
                     </div>
@@ -120,7 +124,7 @@
     </div>
 
 
-    </pre>
+
 </body>
 
 </html>
